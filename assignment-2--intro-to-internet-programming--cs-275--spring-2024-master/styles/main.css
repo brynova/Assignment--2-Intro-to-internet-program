@@ -31,7 +31,7 @@ div {
   height: 100px;
 }
 
-div :nth-child(){
+div:nth-child(){
   margin: 0;
   padding: 0;
   border: 0;
@@ -40,7 +40,7 @@ div :nth-child(){
 section {
   --width-of-a-div: 100px;
   border: solid;
-  width: calc(2*var(--width-of-a-div));
+  width: calc(4*var(--width-of-a-div));
 }
 
 .second-section > div:nth-child(1){

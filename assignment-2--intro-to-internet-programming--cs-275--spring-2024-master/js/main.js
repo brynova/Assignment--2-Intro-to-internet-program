@@ -33,8 +33,15 @@ body.addeventlistener('Click',()=>{
         toggle='false';
     }
 })
-image = document.createElement('image')
-image.setAttribute('src','img/.json');
+imageOne = document.createElement('imageOne')
+imageOne.setAttribute('src','img/n');
+imageTwo = document.createElement('imageTwo')
+imageTwo.setAttribute('src','');
+imageThree = document.createElement('imageThree')
+imageThree.setAttribute('src','');
+imageFour = document.createElement('imageFour')
+imageFour.setAttribute('src','');
+
 script = document.createElement(`script`);
 script.setAttribute(`src`, `data/data.json`);
 body.appendChild(script);
