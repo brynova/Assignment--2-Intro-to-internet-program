@@ -1,5 +1,3 @@
-
-
 window.onload = () => {
     alert(`Test`);
 };
@@ -14,10 +12,29 @@ window.onload = () => {
 
 //Editing the Weights:
 window.onload =() =>{
-
+    Header = document.querySelector('h1');
+    body = document.querySelector('body');
+    document.innerHTML = <div><section></section></div>;
+    document.innerHTML= <div class carousel-slides></div>;
+    document.images.
 };
+//Event listener
+body.addeventlistener('Click',()=>{
+    body.style.backgroundcolor='yellow';
 
-// Button Listeners
-ReportBody.addEventListener('Click',()=>{
-    alert('You just clicked!);
-});
+})
+let toggle = true;
+body.addeventlistener('Click',()=>{
+    if(toggle){
+        body.style.backgroundcolor='yellow';
+        toggle = 'false';
+    }else{
+        body.style.backgroundcolor='transparent';
+        toggle='false';
+    }
+})
+image = document.createElement('image')
+image.setAttribute('src','img/.json');
+script = document.createElement(`script`);
+script.setAttribute(`src`, `data/data.json`);
+body.appendChild(script);
