@@ -9,3 +9,10 @@ body {
   color: #ddd;
 }
 /*Following the gulp-templete-for-html-css-sass-js */
+:root{--width-of-a-div:100px;}
+section{border: solid block;width: calc(3*--with-of-a-div);}
+div{
+display: inline-block;
+width: var(--width-of-a-div);
+height: 100px;
+}
